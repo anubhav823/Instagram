@@ -1,0 +1,104 @@
+@font-face
+{
+    font-family: billabong;
+    src:url('Billabong.woff');
+}
+body{
+    background-color: #f7f7f7;
+}
+.navbar
+{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0px;
+    background-color: white;
+    font-size: 50px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+.logo
+{
+    margin-left:25%;
+    font-family: billabong;
+    text-decoration: none;
+    color: black;
+}
+.logos
+{
+    width: 30px;
+    height: 30px;
+}
+.timeline
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin-left: 25%; 
+  height: 75px;
+  width: 800px;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.timelineimg
+{
+    display: flex;
+    border-radius: 50%;
+    background-color: black;
+    height: 50px;
+    width:50px;
+}
+.updates
+{
+    margin-left: 25%;
+    width:820px;
+    
+}
+.infoTop
+{
+    margin: auto;
+    align-items: center;
+}
+.update
+{
+    box-sizing: border-box;
+    border:1px lightgray solid;
+    margin-bottom: 15%;
+}
+.dp
+{
+    background-color: black;
+    border-radius: 50%;
+    width:30px;
+    margin: 2%;
+    height: 30px;
+}
+.post
+{
+    border:none;
+    width: 820px;
+    height: 820px;
+}
+.options
+{
+    float: right;
+    width:5%;
+    height:5%;
+    margin-right:2%;
+}
+.location
+{
+    margin:8.2%;
+}
+.comments
+{
+    margin: 2%;
+    font-family: sans-serif;
+    color:gray;
+}

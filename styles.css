@@ -1,0 +1,84 @@
+@font-face
+{
+    font-family: billabong;
+    src:url('Billabong.woff');
+}
+html
+{
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+.logo
+{
+    position: static;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+    font-family: billabong;
+    font-size: 50px;
+}
+body{
+    margin: 0px;
+    width: auto;
+    padding:70px 0;
+    text-align: center;
+    justify-content: center;
+}
+.login_window
+{
+    margin: auto;
+    border: 0.1px solid lightgray;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+    background-color:white;
+}
+.loginForm
+{
+    display: block;
+    margin: 0px;
+    text-align: center;
+}
+input[type='text']
+{
+    width: 250px;
+    padding:5px;
+    margin-bottom: 5px;
+    border: 0.1px solid lightgrey;
+    border-radius: 3px;
+}
+input[type='password']
+{
+    width: 250px;
+    padding:5px;
+    margin-bottom: 10px;
+    border: 0.1px solid lightgrey;
+    border-radius: 3px;
+}
+.button
+{
+    background-color:#1d97de;
+    color:white;
+    width: 260px;
+    border: #1d97de;
+    padding:7px; 
+    border-radius: 5px;  
+    margin-bottom: 15px;
+}
+.button:active
+{
+    background-color: skyblue;
+    border: 0px skyblue;
+}
+.signUp
+{
+    margin: auto;
+    border: 0.1px solid lightgray;
+    text-align: center;
+    width: 400px;   
+    background-color:white;
+}
+.link   
+{
+    text-decoration: none;
+}
